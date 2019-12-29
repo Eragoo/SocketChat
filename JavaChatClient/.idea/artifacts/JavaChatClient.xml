@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="JavaChatClient">
+    <output-path>$PROJECT_DIR$/classes/artifacts/JavaChatClient</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.Erag0.JavaChatClient.App" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaChatClient.jar">
+        <element id="module-output" name="JavaChatClient" />
+        <element id="library" level="project" name="Maven: org.openjfx:javafx-base:13" />
+        <element id="library" level="project" name="Maven: org.openjfx:javafx-base:mac:13" />
+        <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:13" />
+        <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:mac:13" />
+        <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:13" />
+        <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:mac:13" />
+      </element>
+    </root>
+  </artifact>
+</component>

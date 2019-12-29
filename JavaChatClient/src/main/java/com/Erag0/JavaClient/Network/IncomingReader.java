@@ -1,28 +1,33 @@
 package com.Erag0.JavaClient.Network;
 
-import javax.swing.*;
+import javafx.concurrent.Task;
+import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
+
 import java.io.BufferedReader;
 
-public class IncomingReader implements Runnable {
+public class IncomingReader extends Task {
     private BufferedReader reader;
-    private JTextArea incoming;
+    private Label messagesLabel;
 
-    public IncomingReader(BufferedReader reader, JTextArea incoming) {
+    public IncomingReader(BufferedReader reader, Label messagesLabel) {
         this.reader = reader;
-        this.incoming = incoming;
+        this.messagesLabel = messagesLabel;
     }
 
-    public void run() {
+
+    @Override
+    protected Object call() {
         String message;
         try {
             while ((message = reader.readLine()) != null) {
-                System.out.println("read :" + message);
-                incoming.append(message + "\n");
+                String newMessage = messagesLabel.getText() + "\n" + message;
+                System.out.println(message);
+                updateMessage(newMessage);
             }
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+        return null;
     }
-
-
 }

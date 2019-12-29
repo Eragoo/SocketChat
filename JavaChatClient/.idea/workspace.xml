@@ -1,19 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaChatClient:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a672ae45-51d9-4e2c-9a20-e2fb73ac8bf3" name="Default Changelist" comment="" />
+    <list default="true" id="a672ae45-51d9-4e2c-9a20-e2fb73ac8bf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaChatClient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaChatClient_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/ChatWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/src/main/java/com/Erag0/JavaChat/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/src/main/java/com/Erag0/JavaChat/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/target/JavaChat-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/JavaChat-1.0-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/target/JavaChat-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/JavaChat-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/target/classes/com/Erag0/JavaChat/App$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/classes/com/Erag0/JavaChat/App$ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/target/classes/com/Erag0/JavaChat/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/classes/com/Erag0/JavaChat/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/TEST-com.Erag0.JavaChat.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/TEST-com.Erag0.JavaChat.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/com.Erag0.JavaChat.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/com.Erag0.JavaChat.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaChatClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaChatClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/RegWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/Network/IncomingReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JavaChatClient-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaChatClient-1.0-shaded.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/JavaChatClient-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaChatClient-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/GUI/MainWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/GUI/RegWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/Network/IncomingReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/Network/IncomingReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Erag0.JavaClient.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Erag0.JavaClient.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Erag0.JavaClient.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Erag0.JavaClient.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Erag0/JavaClient/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Erag0/JavaClient/AppTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaChatClient" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,16 +75,37 @@
     </option>
   </component>
   <component name="ProjectId" id="1V1WL1FWaDuY1LMz0BIsGqw7WRj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn install" />
+      <command value="mvn clean javafx:compile" />
+      <command value="mvn jfx:jar" />
+      <command value="java -jar /Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/classes/artifacts/JavaChatClient/JavaChatClient.jar" />
+      <command value="mvn clean javafx:run" />
+      <command value="java -jar /Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/classes/artifacts/JavaChatClient_jar/JavaChatClient.jar" />
       <command value="java -jar /Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/JavaChatClient-1.0-shaded.jar" />
+      <command value="mvn javafx:run" />
+      <command value="mvn install" />
+      <command value="java --module-path /Library/Java/JavaVirtualMachines/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web -jar /Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/JavaChatClient-1.0-shaded.jar" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -60,10 +133,30 @@
       <workItem from="1576421026274" duration="8841000" />
       <workItem from="1576856713521" duration="5454000" />
       <workItem from="1576921454990" duration="7377000" />
+      <workItem from="1576949742252" duration="255000" />
+      <workItem from="1577274441642" duration="471000" />
+      <workItem from="1577282392548" duration="2962000" />
+      <workItem from="1577293910480" duration="2995000" />
+      <workItem from="1577369422839" duration="438000" />
+      <workItem from="1577531981496" duration="12477000" />
+      <workItem from="1577617139633" duration="13842000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
