@@ -3,24 +3,24 @@ package com.Erag0.JavaClient.GUI;
 import com.Erag0.JavaClient.Network.IncomingReader;
 import com.Erag0.JavaClient.Network.Network;
 import com.Erag0.JavaClient.User;
-import com.sun.source.tree.NewArrayTree;
-import javafx.application.Platform;
-import javafx.beans.property.Property;
 import javafx.geometry.Insets;
 import javafx.geometry.Orientation;
 import javafx.geometry.Pos;
-import javafx.scene.Cursor;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextArea;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import org.w3c.dom.Text;
 
 import java.io.BufferedReader;
 import java.io.PrintWriter;
-import java.util.concurrent.Flow;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 public class ChatWindow {
@@ -56,8 +56,11 @@ public class ChatWindow {
         FlowPane labelContentPane = new FlowPane();
         labelContentPane.setOrientation(Orientation.VERTICAL);
         labelContentPane.setAlignment(Pos.TOP_LEFT);
-
         Label messagesLabel = new Label("");
+        messagesLabel.setMinWidth(30);
+        messagesLabel.setPrefWidth(330);
+        messagesLabel.setMaxWidth(670);
+
         messagesLabel.setWrapText(true);
 
         labelContentPane.getChildren().add(messagesLabel);
@@ -76,11 +79,16 @@ public class ChatWindow {
         textArea.setWrapText(true);
         textArea.setOnKeyPressed(event ->  {
             if(event.getCode().toString().equals("ENTER")){
-
-                sendButtonClickEvent();
-            };
+                textArea.clear();
+            }
         });
+
         bottomPane.getChildren().add(textArea);
+        bottomPane.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
+            if (event.getCode().toString().equals("ENTER")) {
+                sendButtonClickEvent();
+            }
+        });
 
         //SendButton
         Button sendButton = new Button("Send");
@@ -110,9 +118,19 @@ public class ChatWindow {
     }
 
     private static void sendButtonClickEvent() {
-        String message = User.getUsername() + ": " + textArea.getText();
-        Network.send(message);
-        textArea.clear();
+        String text = textArea.getText();
+        if (text.trim().length() > 0){
+            String message =getCurrentTime() + " " + User.getUsername() + ": " + textArea.getText();
+            Network.send(message);
+            textArea.clear();
+        }
+    }
+
+
+    private static String getCurrentTime() {
+        SimpleDateFormat formatter = new SimpleDateFormat("HH:mm");
+        Date date = new Date(System.currentTimeMillis());
+        return formatter.format(date);
     }
 
     private static void setReader(BufferedReader reader) {

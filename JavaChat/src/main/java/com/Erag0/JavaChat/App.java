@@ -3,6 +3,7 @@ package com.Erag0.JavaChat;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -17,7 +18,7 @@ public class App
         public ClientHandler(Socket clientSocket) {
             try{
                 socket = clientSocket;
-                InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
+                InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8);
                 reader = new BufferedReader(inputStreamReader);
 
             }catch (Exception ex){
@@ -30,8 +31,10 @@ public class App
             String message;
             try{
                 while((message = reader.readLine()) != null) {
-                    System.out.println("read " + message);
-                    tellEveryone(message);
+                    if (message.trim().length()>0){
+                        System.out.println("read " + message);
+                        tellEveryone(message);
+                    }
                 }
             }catch (Exception ex) {
                 ex.printStackTrace();
@@ -45,10 +48,10 @@ public class App
     public void go() {
         clientOutputStreams = new ArrayList();
         try{
-            ServerSocket serverSocket = new ServerSocket(Socket!!!);
+            ServerSocket serverSocket = new ServerSocket(50000);
             while(true) {
                 Socket clientSocket = serverSocket.accept();
-                PrintWriter writer = new PrintWriter(clientSocket.getOutputStream());
+                PrintWriter writer = new PrintWriter(new OutputStreamWriter(clientSocket.getOutputStream(),StandardCharsets.UTF_8));
                 clientOutputStreams.add(writer);
 
                 Thread t = new Thread(new ClientHandler(clientSocket));

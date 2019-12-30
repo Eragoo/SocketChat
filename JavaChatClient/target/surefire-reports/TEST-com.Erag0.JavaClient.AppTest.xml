@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.Erag0.JavaClient.AppTest" time="0.177" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.Erag0.JavaClient.AppTest" time="0.223" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PL"/>
     <property name="sun.boot.library.path" value="/Applications/IntelliJ IDEA.app/Contents/jbr/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/surefire/surefirebooter16570179548838556255.jar /Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/surefire 2019-12-29T18-19-04_428-jvmRun1 surefire6904747368656087789tmp surefire_02825939080479166575tmp"/>
+    <property name="sun.java.command" value="/Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/surefire/surefirebooter11352739102102959176.jar /Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/surefire 2019-12-30T12-57-33_067-jvmRun1 surefire3747183134499436834tmp surefire_014129114410909490474tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/test-classes:/Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/classes:/Users/macbook/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/macbook/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macbook/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar:/Users/macbook/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-mac.jar:/Users/macbook/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar:/Users/macbook/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-mac.jar:/Users/macbook/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar:/Users/macbook/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-mac.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/surefire/surefirebooter16570179548838556255.jar"/>
+    <property name="surefire.real.class.path" value="/Users/macbook/Documents/programming/java_project/JavaChat/JavaChatClient/target/surefire/surefirebooter11352739102102959176.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.4+10-b304.77"/>
@@ -61,5 +61,5 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.Erag0.JavaClient.AppTest" time="0.004"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.Erag0.JavaClient.AppTest" time="0.006"/>
 </testsuite>

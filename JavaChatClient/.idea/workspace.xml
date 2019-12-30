@@ -7,16 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a672ae45-51d9-4e2c-9a20-e2fb73ac8bf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaChatClient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaChatClient_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/ChatWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ JavaFx/ JavaFx.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaChat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaChat/src/main/java/com/Erag0/JavaChat/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/src/main/java/com/Erag0/JavaChat/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaChat/target/JavaChat-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/JavaChat-1.0-shaded.jar" afterDir="false" />
@@ -25,27 +16,14 @@
       <change beforePath="$PROJECT_DIR$/../JavaChat/target/classes/com/Erag0/JavaChat/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/classes/com/Erag0/JavaChat/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/TEST-com.Erag0.JavaChat.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/TEST-com.Erag0.JavaChat.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/com.Erag0.JavaChat.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaChat/target/surefire-reports/com.Erag0.JavaChat.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaChatClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaChatClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/MainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/RegWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/Network/IncomingReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/ChatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/ChatWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/LoginWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Erag0/JavaClient/GUI/LoginWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JavaChatClient-1.0-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaChatClient-1.0-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/JavaChatClient-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/JavaChatClient-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/GUI/MainWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/GUI/RegWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/Network/IncomingReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/Network/IncomingReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/GUI/ChatWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Erag0/JavaClient/GUI/ChatWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Erag0.JavaClient.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Erag0.JavaClient.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Erag0.JavaClient.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.Erag0.JavaClient.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Erag0/JavaClient/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Erag0/JavaClient/AppTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +117,8 @@
       <workItem from="1577293910480" duration="2995000" />
       <workItem from="1577369422839" duration="438000" />
       <workItem from="1577531981496" duration="12477000" />
-      <workItem from="1577617139633" duration="13842000" />
+      <workItem from="1577617139633" duration="14331000" />
+      <workItem from="1577699527612" duration="2625000" />
     </task>
     <servers />
   </component>

@@ -2,8 +2,6 @@ package com.Erag0.JavaClient.GUI;
 
 import com.Erag0.JavaClient.Network.Network;
 import com.Erag0.JavaClient.User;
-import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -11,13 +9,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.input.KeyEvent;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class LoginWindow {
     private static Stage stage;
@@ -56,11 +55,16 @@ public class LoginWindow {
         textArea.setWrapText(true);
         textArea.setOnKeyPressed(event ->  {
                 if(event.getCode().toString().equals("ENTER")){
-                    sendButtonClickEvent();
+                    textArea.clear();
                 };
             });
 
         menuBox.getChildren().add(textArea);
+        menuBox.addEventFilter(KeyEvent.KEY_PRESSED, event -> {
+            if (event.getCode().toString().equals("ENTER")) {
+                sendButtonClickEvent();
+            }
+        });
 
         //SendButton
         Button sendButton = new Button("Send");
@@ -82,10 +86,13 @@ public class LoginWindow {
     }
 
     private static void sendButtonClickEvent() {
-        User.setUsername(textArea.getText());
-        Network.send(User.getUsername() + "  присоеденился!");
-        stage.close();
-        ChatWindow.display();
+        String text = textArea.getText();
+        if (text.trim().length() > 0){
+            User.setUsername(textArea.getText());
+            Network.send( User.getUsername() + "  присоединился!");
+            stage.close();
+            ChatWindow.display();
+        }
     }
 
     private static void setReader(BufferedReader reader) {
